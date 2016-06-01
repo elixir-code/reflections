@@ -1,0 +1,20 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A. Initialising a repository using "git init" preps the directory with the
+necessary metadata files that can store data about the history the files in
+the repository. It creates a hidden .git directory within the original
+directory which enables us to use 'git commands' that track it's history.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A. Staging area is a intermediate ground that lets you selectively commit and 
+track parts of the working directory to the repository.
+
+The git is completely ignornant of the changes to the others files in working
+directory and when a earlier commit is checked out only the files in repository
+are reverted the previous state. The other files remain unchanged.
+
+It saves some memory as some files are not expected to be modified throughout
+the course of development of the program or they are not yet ready to become
+part of the program.
+
