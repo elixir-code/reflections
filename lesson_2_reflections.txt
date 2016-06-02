@@ -18,3 +18,12 @@ It saves some memory as some files are not expected to be modified throughout
 the course of development of the program or they are not yet ready to become
 part of the program.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+A. We often make experiment 'multiple changes' simaltaneously in multiple files.
+However, commiting logical irrelated changes and incomplete works together would
+clutter the log and render commits useless.
+
+We can stage a file when one logical change is made and continue working. These
+staged files can be selectively commited or other logically related changes can
+later be staged and commited together.
