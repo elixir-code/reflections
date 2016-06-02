@@ -27,3 +27,12 @@ clutter the log and render commits useless.
 We can stage a file when one logical change is made and continue working. These
 staged files can be selectively commited or other logically related changes can
 later be staged and commited together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. Git branches come handy when we want to experiment changes and try out variants
+that we want to keep aloof from the main development line. 
+
+Branches can be used to differentiate the variants of the program - 'Bussiness to Bussiness' 
+product and Bussiness to consumer product or to experiment new features that we may merge
+with the main program in the future.
