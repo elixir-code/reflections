@@ -36,3 +36,13 @@ that we want to keep aloof from the main development line.
 Branches can be used to differentiate the variants of the program - 'Bussiness to Bussiness' 
 product and Bussiness to consumer product or to experiment new features that we may merge
 with the main program in the future.
+
+How do the diagrams help you visualize the branch structure?
+
+A. The branch diagram representing commits as ellipses and connections joining each
+commit to its parent as straight lines, helps us visualise the entire commit history.
+
+Tracing the parent of each commit starting with the tip of the branch and repeating the
+entire excerise for each branch recreates the entire picture of the workflow, i.e., the
+main quality production line (master branch) and forks where the new branches stemed out.
+
