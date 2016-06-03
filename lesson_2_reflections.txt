@@ -56,3 +56,14 @@ The merged version is a commit in the checked out branch, whose parents are all 
 commits from the branches we merged. Hence, in the diagram the merged commit has the label
 of the checked out branch and is connected to all most recent commits from the branches we merged.
 The commits from merged branches are interleaved in git log and sorted by timestamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A. Git's automerge feature efficiently merges branches when there are no merge conflicts.
+It is quick and smart. However, when merge conflicts arise, i.e., two commits modify
+the same segment of the file, the git passes the control to the user.
+
+The user then manual decides which change to keep(or discard) and resolves the conflict by
+discussion with the other collaboraters. Auto-merge either tends to costly (in terms of
+memory and resources- needs advanced machine learning) or is prone to create errors when
+there is an ambiguity (merge conflict). 
