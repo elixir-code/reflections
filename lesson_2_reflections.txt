@@ -46,3 +46,13 @@ Tracing the parent of each commit starting with the tip of the branch and repeat
 entire excerise for each branch recreates the entire picture of the workflow, i.e., the
 main quality production line (master branch) and forks where the new branches stemed out.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A. Git merge logically combines the commits or changes from the currently checked out out branch
+and other branches that follow the 'git merge' statement.It does so by comparing the version
+of the files in the branches and the state of the files before the branches diverged.
+
+The merged version is a commit in the checked out branch, whose parents are all the most recent
+commits from the branches we merged. Hence, in the diagram the merged commit has the label
+of the checked out branch and is connected to all most recent commits from the branches we merged.
+The commits from merged branches are interleaved in git log and sorted by timestamp.
