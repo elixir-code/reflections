@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repository is not a pre-requisite for solo projects. However, when multiple
+collaborators collectively contribute to a project (like in most real world 
+scenarios), remote repositories become a neccessity.
+
+Even for single developer projects, remote repositories are good backups that come
+handy if the local machine crashes.
