@@ -32,3 +32,19 @@ To copy repository,
 GitHub -----> GitHub : Fork
 GitHub -----> Local  : Clone
 Local  -----> Local  : Clone
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Using git fetch or git pull to have a local copy of last known state of remote, helps us
+to work on latest piece of code. If every collaborator constantly stayed updated, it
+would reduce chances of collaboration conflicts, that arise due to conflicting state of
+the remote and local repositories.
+
+git fetch origin
+git merge master origin/master
+
+(or)
+git pull origin master
+
+Note: git commit --amend
+(continue working on most recent commit - commit made too early)
