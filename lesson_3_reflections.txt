@@ -6,3 +6,12 @@ scenarios), remote repositories become a neccessity.
 
 Even for single developer projects, remote repositories are good backups that come
 handy if the local machine crashes.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Git's auto pull can cause confusions as the local git repository gets flooded with changes
+that have crept in from the remote repository without the user's consent.
+
+It can also cause loss of the recent changes in working directory or raise conflict flags
+if another user accidently changes the same segment of code that the  local  user changed
+and pushed those changes to github. This can be irritating.
