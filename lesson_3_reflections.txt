@@ -15,3 +15,20 @@ that have crept in from the remote repository without the user's consent.
 It can also cause loss of the recent changes in working directory or raise conflict flags
 if another user accidently changes the same segment of code that the  local  user changed
 and pushed those changes to github. This can be irritating.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used when we want to experiment changes on a public repository on github that
+we don't have permission to change. Fork creates a copy/clone of the repository in our
+account. We can then modify it or suggest changes to the original repository.
+
+Clone is used to create a copy of a remote repository from github to our local
+machine.
+
+Branch is used within a repository to carry out diffrent logical pieces of work. 
+
+To copy repository,
+
+GitHub -----> GitHub : Fork
+GitHub -----> Local  : Clone
+Local  -----> Local  : Clone
