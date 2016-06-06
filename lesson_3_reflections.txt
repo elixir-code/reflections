@@ -48,3 +48,22 @@ git pull origin master
 
 Note: git commit --amend
 (continue working on most recent commit - commit made too early)
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+- GitHub : common cloud storage platform for git repositories.
+- Git diff
+- Git branches and merge 
+
+Collaboration without github and git would involve ever-shuttling pieces of code (via ftp or
+e-mail), that depended completely on human intelligence and speed to find the changes between
+two versions. Merging files with two logically different piece of change would seem like a
+near impossible task.
+
+The maximum number of collaborators would be limited to 3 or 4.
+
+GitHub breaks the location and time barriers for a developer and allows him to concentrate
+on producing products rather than fixing the wrecks of his broken code or tidying his desktop
+that is flooded with old versions of code (sans commit messages) that cannot speak for themselves
+as those within git can.
+
