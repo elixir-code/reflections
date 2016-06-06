@@ -67,3 +67,12 @@ on producing products rather than fixing the wrecks of his broken code or tidyin
 that is flooded with old versions of code (sans commit messages) that cannot speak for themselves
 as those within git can.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When multiple collaborators are working in a hierarchial company setup, it is necessary to
+get the changes approved before incorporating them in the main program. New branches can
+be made for each new feature and pull request can be initiated to review the change before 
+add them to the master branch.
+
+For large public repositories, it keeps the master branch organised for public to inspect
+and understand. It ensures that the master branch is always in tact.
